@@ -62,7 +62,7 @@ body{
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
 .select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#fff}
-.btn{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#fff;cursor:pointer;text-decoration:none}
+.btn{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#F2EDF5;color:#9272AB;cursor:pointer;text-decoration:none}
 .btnLinkedin{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#3567CC;color:white;cursor:pointer;text-decoration:none}
 .btnGithub{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:black;color:white;cursor:pointer;text-decoration:none}
 .btnGmail{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#CC472D;color:white;cursor:pointer;text-decoration:none}
