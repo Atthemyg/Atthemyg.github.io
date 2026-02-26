@@ -30,7 +30,7 @@ body{
   display:flex; flex-direction:row;gap:18px;align-items:center;
   border-radius:16px;overflow:hidden;border:2px solid #dbeafe;
 }
-.profile img{width:220px;height:auto;border-radius:16px;object-fit:cover;display:block}
+.profile img{width:220px;height:auto;border-radius:16px;object-fit:cover;display:block;margin-left:20px;}
 .profile .bio{flex:1;padding:16px}
 @media (max-width: 768px){ 
 .grid2{grid-template-columns:1fr} 
