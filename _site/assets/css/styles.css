@@ -24,6 +24,7 @@ body{
 }
 .title{font-size:32px;line-height:1.05;margin:0;color:#9272AB}
 .subtitle{margin:10px 0 0;color:var(--muted);font-size:18px}
+.aboutMe{color:#9272AB}
 .section{margin-top:22px;padding:22px;border:2px solid var(--line);border-radius:var(--radius)}
 .grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
 .profile{
