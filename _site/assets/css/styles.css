@@ -39,7 +39,7 @@ body{
 @media (max-width: 768px){ 
 .grid2{grid-template-columns:1fr} 
 .title{font-size:36px}
-.profile{flex-direction:column}
+.profile{flex-direction:column;align-items:center;}
 .profile img{width:90%;
   max-width:270px;}
 .topbar{
