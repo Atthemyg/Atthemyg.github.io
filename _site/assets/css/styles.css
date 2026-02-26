@@ -27,7 +27,7 @@ body{
 .section{margin-top:22px;padding:22px;border:2px solid var(--line);border-radius:var(--radius)}
 .grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
 .profile{
-  display:flex; flex-direction:row;gap:18px;align-items:flex-start;
+  display:flex; flex-direction:row;gap:18px;align-items:center;
   border-radius:16px;overflow:hidden;border:2px solid #dbeafe;
 }
 .profile img{width:220px;height:auto;border-radius:16px;object-fit:cover;display:block}
