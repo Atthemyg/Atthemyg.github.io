@@ -26,13 +26,18 @@ body{
 .subtitle{margin:10px 0 0;color:var(--muted);font-size:18px}
 .section{margin-top:22px;padding:22px;border:2px solid var(--line);border-radius:var(--radius)}
 .grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
-@media (max-width: 768px){ .grid2{grid-template-columns:1fr} .title{font-size:36px}}
 .profile{
-  display:flex;flex-direction: column;gap:18px;align-items:stretch;
+  display:flex; flex-direction:row;gap:18px;align-items:flex-start;
   border-radius:16px;overflow:hidden;border:2px solid #dbeafe;
 }
-.profile img{width:100%;height:auto;object-fit:cover;display:block}
-.profile .bio{padding:16px}
+.profile img{width:220px;height:auto;border-radius:16px;object-fit:cover;display:block}
+.profile .bio{flex:1;padding:16px}
+@media (max-width: 768px){ 
+.grid2{grid-template-columns:1fr} 
+.title{font-size:36px}
+.profile{flex-direction:column}
+.profile img{width:100%}
+}
 .pillrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .pill{
   padding:6px 10px;border-radius:999px;font-size:12px;
