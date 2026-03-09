@@ -60,7 +60,7 @@ body{
   background:#fff;
   color: #0f172a;
 }
-.pill.featured{border-color: #6c6c6392; background:#c4c2b192; color:#0a0a0992}
+.pill.featured{border-color: #6c6c6392; background:#c4c2b192; color:#2a2a2492}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 @media (max-width: 950px){ .cards{grid-template-columns:repeat(2,1fr)} }
 @media (max-width: 620px){ .cards{grid-template-columns:1fr} }
@@ -71,7 +71,7 @@ body{
   display:flex;flex-direction:column;gap:10px;
 }
 .card.border-blue{border-color:#bfdbfe}
-.card.border-violet{border-color:#c4c2b192}
+.card.border-violet{border-color:#d39feb92}
 .card.border-emerald{border-color:#bbf7d0}
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
