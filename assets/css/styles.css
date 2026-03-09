@@ -70,9 +70,9 @@ body{
   box-shadow: 0 10px 30px rgba(2,6,23,.06);
   display:flex;flex-direction:column;gap:10px;
 }
-.card.border-blue{border-color:#bfdbfe}
-.card.border-violet{border-color:#d39feb92}
-.card.border-emerald{border-color:#bbf7d0}
+.card.border-blue{border-color:#6c6c6392}
+.card.border-violet{border-color:#6c6c6392}
+.card.border-emerald{border-color:#6c6c6392}
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
