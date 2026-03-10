@@ -82,5 +82,5 @@ body{
 .btnLinkedin{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#3567CC;color:white;cursor:pointer;text-decoration:none}
 .btnGithub{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:black;color:white;cursor:pointer;text-decoration:none}
 .btnGmail{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#CC472D;color:white;cursor:pointer;text-decoration:none}
-.btn.active{border-color:#93c5fd;background:#eff6ff}
+.btn.active{background:#6c6c6392;color:white}
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
